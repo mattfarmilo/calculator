@@ -23,16 +23,16 @@ let operator;
 //Function to determine calculation mode
 function operate (num1, num2, operator) {
   switch (operator) {
-    case '+':
+    case 'plus':
       return add(num1, num2);
       break;
-    case '-':
+    case 'minus':
       return subtract(num1, num2);
       break;
-    case '*':
+    case 'multiply':
       return multiply(num1, num2);
       break;
-    case '/':
+    case 'divide':
       return divide(num1, num2);
       break;
   }
